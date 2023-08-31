@@ -18,52 +18,15 @@
     </nav>
 </header>
 
-<div class="container">
-    <div class="jumbotron text-center">
-        <h1>Bienvenido a la Universidad XYZ</h1>
-        <p>Explora nuestras carreras y elige la que mejor se adapte a tus intereses.</p>
-    </div>
-</div>
+<button id="btnInicioSesion" style="background: #09DA3C; margin-left: 34%; width: 500px; height: 50px">Iniciar Sesion</button>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script>
 
-<div class="container">
-    <div class="row">
-        <div class="col-md-4">
-            <div class="tarjeta">
-                <div class="titulo">Ingeniería en Sistemas</div>
-                <div class="cuerpo">
-                    <img srcset="https://cdn.pixabay.com/photo/2015/05/23/07/52/board-780316_1280.jpg" width="377" alt="Diseño Web, Interfaz De Usuario">
-                    Estudia la creación y gestión de sistemas informáticos.
-                </div>
-                <div class="pie">
-                    <a href="#">Más Información</a>
-                </div>
-            </div>
-        </div>
+        $(document).ready(function () {
+            $(document).on('click', '#btnInicioSesion', function () {
+                document.location.href = "@Url.Action("Login", "Access")";
+            })
+        })
 
-        <div class="col-md-4">
-            <div class="tarjeta">
-                <div class="titulo">Medicina</div>
-                <div class="cuerpo">
-                    <img srcset="https://cdn.pixabay.com/photo/2020/03/31/07/56/face-mask-4986596_960_720.jpg" width="400" alt="Diseño Web, Interfaz De Usuario">
-                    Prepárate para una carrera en el cuidado de la salud.
-                </div>
-                <div class="pie">
-                    <a href="#">Más Información</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-4">
-            <div class="tarjeta">
-                <div class="titulo">Arquitectura</div>
-                <div class="cuerpo">
-                    <img srcset="https://cdn.pixabay.com/photo/2016/11/24/20/30/floor-plan-1857175_1280.jpg" width="400" alt="Diseño Web, Interfaz De Usuario">
-                    Diseña espacios funcionales y estéticos.
-                </div>
-                <div class="pie">
-                    <a href="#">Más Información</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>  
+</script>
+    

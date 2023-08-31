@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #f1f1f1;
+    background: #4cac6e;
 }
 
 a {
@@ -84,7 +84,7 @@ table {
     display: flex;
     width: 650px;
     height: auto;
-    background: #fff;
+    background: #4cac6e;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .2);
 }
 
@@ -147,12 +147,12 @@ table {
     }
 
 .login {
-    background-image: linear-gradient(to bottom right, #1ab6b6, #4cac6e);
+    background:#4cac6e;
     padding: 40px;
 }
 
     .login h2 {
-        color: #fff;
+        color: #4cac6e;
         margin-bottom: 45px;
     }
 
