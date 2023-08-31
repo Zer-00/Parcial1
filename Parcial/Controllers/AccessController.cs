@@ -9,7 +9,7 @@ namespace Parcial.Controllers
     public class AccessController : Controller
     {
         // GET: Access
-        private RC101320Entities1 db = new RC101320Entities1();
+        private MS101720Entities1 db = new MS101720Entities1();
        
         public ActionResult Login()
         {

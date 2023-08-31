@@ -20,16 +20,6 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <FunctionImportMapping FunctionImportName="InsertarUsuario" FunctionName="RC101320Model.Store.InsertarUsuario" />
-    <FunctionImportMapping FunctionImportName="ObtenerCarreras" FunctionName="RC101320Model.Store.ObtenerCarreras">
-      <ResultMapping>
-        <ComplexTypeMapping TypeName="RC101320Model.ObtenerCarreras_Result">
-          <ScalarProperty Name="Id" ColumnName="Id" />
-          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
-          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
-        </ComplexTypeMapping>
-      </ResultMapping>
-    </FunctionImportMapping>
     <EntitySetMapping Name="Roles">
       <EntityTypeMapping TypeName="RC101320Model.Role">
         <MappingFragment StoreEntitySet="Roles">

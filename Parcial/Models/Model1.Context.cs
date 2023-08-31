@@ -15,10 +15,10 @@ namespace Parcial.Models
     using System.Data.Entity.Core.Objects;
     using System.Linq;
     
-    public partial class RC101320Entities1 : DbContext
+    public partial class MS101720Entities1 : DbContext
     {
-        public RC101320Entities1()
-            : base("name=RC101320Entities1")
+        public MS101720Entities1()
+            : base("name=MS101720Entities1")
         {
         }
     
